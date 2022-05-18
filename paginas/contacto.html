@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../favicon.png">
+    <link rel="stylesheet" href="../estilos/estilos.css">
+</head>
+<body>
+    <div class="maquetado">
+        <header>
+            <a class="logo" href="../index.html"><img class="logo__img" src="../multimedia/imagenes/logo.png" alt="Logo"></a>
+            <nav class="nav">                                                                                   <!--Aquí comienza la barra de navegación-->
+                <div class="nav__links"><a href="../index.html">Inicio</a></div>
+                <div class="nav__links"><a href="../paginas/productos.html">Productos</a></div>
+                <div class="nav__links"><a href="../paginas/nosotros.html">Nosotros</a></div>
+                <div class="nav__links"><a href="../paginas/ofertas.html">Ofertas</a></div>
+                <div class="nav__links"><a href="#">Contacto</a></div>
+                <ul id="menu__desplegable">
+                    <li>
+                        <img id="menu__desplegable__img" src="../multimedia/imagenes/menu_desplegable.png" alt="Menú">
+                        <ul>
+                            <li><a class="links" href="../index.html">Inicio</a></li>
+                            <li><a class="links" href="../paginas/productos.html">Productos</a></li>
+                            <li><a class="links" href="../paginas/nosotros.html">Nosotros</a></li>
+                            <li><a class="links" href="../paginas/ofertas.html">Ofertas</a></li>
+                            <li><a class="links" href="#">Contacto</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>                                                                                              <!--Aquí termina la barra de navegación-->                                                                                 
+        </header>
+        <main id="main__contacto">
+                <form class="formulario" action="">
+                    <div class="formulario__ingresoDatos">
+                        <label for="Nombre">Ingrese su Nombre:</label>
+                        <input type="text" name="nombre">
+                    </div>
+                    <div class="formulario__ingresoDatos">
+                        <label for="apellido">Ingrese su Apellido:</label>
+                        <input type="text"name="apellido">
+                    </div>
+                    <div class="formulario__ingresoDatos">
+                        <label for="email">Ingrese su Email:</label>
+                        <input type="email" name="email">
+                    </div>
+                    <textarea placeholder="Escriba aquí su consulta"></textarea>
+                    <input id="btnEnviar"type="submit" value="Enviar">
+                </form>
+                <section id="contacto" class="secciones_contacto">
+                    <div class="datosContacto">
+                        <h2>Pasa a visitarnos por nuestra sucursal</h2>
+                        <iframe src="https://www.google.com/maps/embed?pb=!3m2!1ses!2sar!4v1651437506161!5m2!1ses!2sar!6m8!1m7!1sD0tLvmsKyIbrUtNWCgJZqQ!2m2!1d-34.66163694446212!2d-58.36591703465852!3f224.27762584351893!4f1.3030344140008623!5f0.7820865974627469" width="400" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <h3>O contactanos al: XXXXXXXXXX</h3>
+                    </div>
+                </section>
+        </main>
+        <footer>                                                                                        <!--Comienzo del footer-->
+            <div class="desarrollador">
+                <p>Desarrollado por Lucas María</p>
+            </div>                                                                                     <!--Comienzo del footer-->
+            <div class="suscripcion">                                                                      
+                <label class="suscripcion__texto">Suscribite a nuestras novedades</label>
+                <input type="email" placeholder="Ingrese su email">
+                <input type="button" value="Suscribirse">
+            </div>
+            <div class="redesSociales">
+                <label class="redesSociales__texto">Seguinos en nuestras redes sociales</label>
+                <div class="redesSociales__links">
+                    <a href="https://www.instagram.com/miche_indu/" target="_blank"><img class="redesSociales__img" src="../multimedia/imagenes/instagram.png" alt="Canal de Instagram"></a>
+                    <a href="https://www.whatsapp.com/?lang=es" target="_blank"><img class="redesSociales__img" src="../multimedia/imagenes/whatsapp.png" alt="Canal de Whatsapp"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img class="redesSociales__img" src="../multimedia/imagenes/youtube.png" alt="Canal de Youtube"></a>
+                    <a href="https://www.tiktok.com/es/" target="_blank"><img class="redesSociales__img" src="../multimedia/imagenes/tiktok.png" alt="Canal de TikTok"></a>
+                </div>
+            </div>
+        </footer>  
+    </div>                                                                                     <!--Fin del footer-->
+</body>
+</html>
