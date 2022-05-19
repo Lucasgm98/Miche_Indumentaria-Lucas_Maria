@@ -120,6 +120,10 @@ html{
     .suscripcion input{
         font-size: 2vh;
     }
+    .email:focus{
+        font-size: 4vh;
+        font-size: 20px;
+    }
     .suscripcion__ingreso__datos{
         display: flex;
         align-items: center;
@@ -275,6 +279,9 @@ html{
         height: 12vh;
         display: flex;
     }
+    .productos__item__img:hover{
+        transform: scale(3,3);
+    }
     .productos__item h5{
         display: flex;
         text-align: center;
@@ -362,6 +369,9 @@ html{
     .ofertas__item__img{
         width: 80%;
         height: 70%;
+    }
+    .ofertas__item__img:hover{
+        transform: scale(1.3,1.3);
     }
     .secciones__ofertas h5{
         height: 10%;
@@ -498,9 +508,10 @@ html{
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: height 1s;
     }
     #menu__desplegable li:hover{
-        height: 100%;
+        height: 20%;
         width: 100%;
         display: block;
     }
