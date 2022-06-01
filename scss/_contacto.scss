@@ -1,0 +1,33 @@
+.fuente-h {
+	font-family: $fuente-texto;
+	color: black;
+	font-size: $tamanio-fuente;
+	font-weight: bold;
+}
+.fuente-contacto {
+	font-family: $fuente-texto;
+	font-size: 0.8rem;
+}
+.bg-contacto {
+	color: $color-blanco;
+	background-image: url(../multimedia/imagenes/background_contacto.jpeg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.btn-enviar {
+    height: 50px;
+	width: 150px;
+	color: #a177bd;
+	background-color: $color-blanco;
+	border: solid 4px #b998cf;
+	border-radius: 7px;
+	&:hover {
+		color: $color-blanco;
+		background-color: #a177bd;
+	}
+}
+textarea {
+	border-radius: 20px;
+	text-align: center;
+	padding: 3%;
+}

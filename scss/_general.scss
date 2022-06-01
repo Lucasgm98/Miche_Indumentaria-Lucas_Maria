@@ -1,0 +1,26 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+html {
+	font-family: $fuente-texto;
+	font-size: $tamanio-fuente;
+}
+body {
+	min-height: 100vh;
+	background: linear-gradient(64deg,#b998cf 0%, #6161cf 80%);
+}
+.main {
+	height: fit-content;
+	min-height: 80vh;
+}
+.altura-main{
+	height: fit-content;
+	min-height: 80vh;
+}
+.fuente-texto{
+    font-family: $fuente-texto;
+    font-size: $tamanio-fuente;
+    color: $color-blanco;
+}

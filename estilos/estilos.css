@@ -1,166 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap'); /*Se importa la letra a utilizar*/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital@1&display=swap");
+/*Se importa la letra a utilizar*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
+html {
+  font-family: "Libre Bodoni", serif;
+  font-size: 16px; }
 
-html{
-    font-family: 'Libre Bodoni', serif;
-    font-size: 16px;
-}
-body{
-    min-height: 100vh;
-    background: linear-gradient(64deg,#b998cf 0%, #6161cf 80%);
-}
+body {
+  min-height: 100vh;
+  background: linear-gradient(64deg, #b998cf 0%, #6161cf 80%); }
 
-header{
+.main {
+  height: fit-content;
+  min-height: 80vh; }
+
+.altura-main {
+  height: fit-content;
+  min-height: 80vh; }
+
+.fuente-texto {
+  font-family: "Libre Bodoni", serif;
+  font-size: 16px;
+  color: aliceblue; }
+
+footer {
+  height: fit-content;
+  min-height: 10vh; }
+
+.altura-footer {
+  height: fit-content;
+  min-height: 10vh; }
+
+.fuente-desarrollador {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.6rem; }
+
+div input {
+  font-size: 16px; }
+
+.email:focus {
+  font-size: 1.3rem; }
+
+.redes-sociales-img {
+  height: 30px;
+  width: 30px; }
+
+header {
+  height: fit-content;
+  min-height: 10vh; }
+  header nav {
     height: fit-content;
-    min-height: 10vh;
-}
-.altura-header{
-    height: fit-content;
-    min-height: 10vh;
-}
-
-.main{
-    height: fit-content;
-    min-height: 80vh;
-}
-.altura-main{
-    height: fit-content;
-    min-height: 80vh;
-}
-footer{
-    height: fit-content;
-    min-height: 10vh;
-}
-.altura-footer{
-    height: fit-content;
-    min-height: 10vh;
-}
-
-.navbar-img{
-    height: 50px;
-    width: 50px;
-}
-
-.links{
-    font-family: Arial;
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.links:hover{
-    background-color: rgb(226, 43, 195);
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-    border-bottom-color: blueviolet;
-}
-
-.fuente-desarrollador{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.6rem;
-}
-div input{
-    font-size: 1rem;
-}
-
-.email:focus{
-    font-size: 1.3rem;
-}
-
-
-.redes-sociales-img{
-    height: 30px;
-    width: 30px;
-}
+    min-height: 10vh; }
+    header nav img {
+      height: 50px;
+      width: 50px; }
+    header nav div ul li {
+      font-family: Arial;
+      text-decoration: none;
+      text-transform: uppercase; }
+      header nav div ul li:hover {
+        background-color: #e22bc3;
+        border-bottom-style: solid;
+        border-bottom-width: 5px;
+        border-bottom-color: blueviolet; }
 
 /* ESTILOS INDEX */
+.mitad-main {
+  height: 50%;
+  min-height: 40vh; }
 
-.fuente-texto{
-    font-family: 'Libre Bodoni', serif;
-    font-size: 16px;
+.img-principal {
+  height: 100%;
+  max-height: 40vh;
+  width: 100%; }
+
+.img-carousel {
+  height: 100%;
+  max-height: 40vh;
+  width: 100%; }
+
+.fuente {
+  height: 60px;
+  font-family: "Libre Bodoni", serif;
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: #8e8e94; }
+
+.ofertas-img-dto {
+  height: 40px;
+  width: 40px; }
+
+.fuente-h {
+  font-family: "Libre Bodoni", serif;
+  color: black;
+  font-size: 16px;
+  font-weight: bold; }
+
+.fuente-contacto {
+  font-family: "Libre Bodoni", serif;
+  font-size: 0.8rem; }
+
+.bg-contacto {
+  color: aliceblue;
+  background-image: url(../multimedia/imagenes/background_contacto.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.btn-enviar {
+  height: 50px;
+  width: 150px;
+  color: #a177bd;
+  background-color: aliceblue;
+  border: solid 4px #b998cf;
+  border-radius: 7px; }
+  .btn-enviar:hover {
     color: aliceblue;
-    font-size: 1rem;
-}
+    background-color: #a177bd; }
 
-.mitad-main{
-    height: 50%;
-    min-height: 40vh;
-}
-
-.img-principal{
-    height: 100%;
-    max-height: 40vh;
-    width: 100%;
-}
-
-.img-carousel{
-    height: 100%;
-    max-height: 40vh;
-    width: 100%;
-    min-width: 100%;
-}
-
-/*ESTILOS PRODUCTOS */
-.fuente{
-    height: 60px;
-    font-family: 'Libre Bodoni', serif;
-    color: black;
-    font-size: 2rem;
-    font-weight: bold;
-    background-color: #8e8e94;
-}
-.card-img:hover{
-    transform: scale(3,3);
-}
-
-/* ESTILOS OFERTAS */
-.ofertas-img-dto{
-    height: 40PX;
-    width: 40px;
-}
-
-/* ESTILOS CONTACTO */
-
-.fuente-h{
-    font-family: 'Libre Bodoni', serif;
-
-    color: black;
-    font-size: 3vh;
-    font-weight: bold;
-}
-.fuente-contacto{
-    font-family: 'Libre Bodoni', serif;
-    font-size: 2vh;
-}
-
-.bg-contacto{
-    color: aliceblue;
-    background-image: url(../multimedia/imagenes/background_contacto.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    font-size: 2vh;
-}
-
-.btn-enviar{
-    color: #a177bd;
-    background-color: aliceblue;
-    border: solid 4px #b998cf;
-    border-radius: 7px;
-    height: 50px;
-    width: 150px;
-}
-.btn-enviar:hover{
-    color: aliceblue;
-    background-color: #a177bd;
-}
-
-textarea{
-    border-radius: 20px;
-    text-align: center;
-    overflow: hidden;
-    padding: 3%;
-}
+textarea {
+  border-radius: 20px;
+  text-align: center;
+  padding: 3%; }
