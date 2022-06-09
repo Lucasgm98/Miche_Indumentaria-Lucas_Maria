@@ -2,6 +2,7 @@
 .mitad-main{
     height: 50%;
     min-height: 40vh;
+    @include altura (50%,40vh);
 }
 
 .img-principal{

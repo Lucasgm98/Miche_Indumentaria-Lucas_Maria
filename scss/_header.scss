@@ -1,9 +1,7 @@
 header {
-	height: fit-content;
-	min-height: 10vh;
+	@include altura(fit-content,10vh);
 	nav {
-		height: fit-content;
-		min-height: 10vh;
+		@include altura(fit-content,10vh);
 		img {
 			height: 50px;
 			width: 50px;
@@ -15,10 +13,10 @@ header {
 					text-decoration: none;
 					text-transform: uppercase;
 					&:hover {
-						background-color: rgb(226, 43, 195);
+						background-color: map-get($colores,rosa);
 						border-bottom-style: solid;
 						border-bottom-width: 5px;
-						border-bottom-color: blueviolet;
+						border-bottom-color: map-get($colores,violeta);
 					}
 				}
 			}

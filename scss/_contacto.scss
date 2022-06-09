@@ -1,15 +1,15 @@
-.fuente-h {
+.fuente-contacto {
+	color: map-get($colores,blanco);
 	font-family: $fuente-texto;
-	color: black;
 	font-size: $tamanio-fuente;
+}
+.fuente-h {
+	@extend .fuente-contacto;
+	color: map-get($colores,negro);
 	font-weight: bold;
 }
-.fuente-contacto {
-	font-family: $fuente-texto;
-	font-size: 0.8rem;
-}
 .bg-contacto {
-	color: $color-blanco;
+	color: map-get($colores, blanco);
 	background-image: url(../multimedia/imagenes/background_contacto.jpeg);
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -17,13 +17,13 @@
 .btn-enviar {
     height: 50px;
 	width: 150px;
-	color: #a177bd;
-	background-color: $color-blanco;
-	border: solid 4px #b998cf;
+	color: map-get($colores, lila-oscuro);
+	background-color: map-get($colores, blanco);
+	border: solid 4px map-get($colores,lila-claro);
 	border-radius: 7px;
 	&:hover {
-		color: $color-blanco;
-		background-color: #a177bd;
+		color: map-get($colores, blanco);
+		background-color: map-get($colores,lila-oscuro);
 	}
 }
 textarea {

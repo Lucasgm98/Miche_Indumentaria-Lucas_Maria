@@ -1,10 +1,8 @@
 footer {
-	height: fit-content;
-	min-height: 10vh;
+	@include altura (fit-content,10vh);
 }
 .altura-footer {
-	height: fit-content;
-	min-height: 10vh;
+	@include altura (fit-content,10vh);
 }
 .fuente-desarrollador {
 	font-family: Arial, Helvetica, sans-serif;

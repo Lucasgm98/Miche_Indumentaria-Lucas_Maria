@@ -70,6 +70,8 @@ header {
 /* ESTILOS INDEX */
 .mitad-main {
   height: 50%;
+  min-height: 40vh;
+  height: 50%;
   min-height: 40vh; }
 
 .img-principal {
@@ -94,15 +96,14 @@ header {
   height: 40px;
   width: 40px; }
 
-.fuente-h {
+.fuente-contacto, .fuente-h {
+  color: aliceblue;
   font-family: "Libre Bodoni", serif;
-  color: black;
-  font-size: 16px;
-  font-weight: bold; }
+  font-size: 16px; }
 
-.fuente-contacto {
-  font-family: "Libre Bodoni", serif;
-  font-size: 0.8rem; }
+.fuente-h {
+  color: black;
+  font-weight: bold; }
 
 .bg-contacto {
   color: aliceblue;

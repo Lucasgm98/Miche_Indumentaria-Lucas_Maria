@@ -1,0 +1,4 @@
+@mixin altura($height,$min-height){
+    height: $height;
+    min-height: $min-height;
+}	
