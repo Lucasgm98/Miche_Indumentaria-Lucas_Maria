@@ -29,5 +29,7 @@
 textarea {
 	border-radius: 20px;
 	text-align: center;
-	padding: 3%;
+	overflow-y: hidden;
+	padding-left: 3%;
+	padding-right: 3%;
 }

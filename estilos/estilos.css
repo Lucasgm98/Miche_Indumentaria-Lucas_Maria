@@ -70,8 +70,6 @@ header {
 /* ESTILOS INDEX */
 .mitad-main {
   height: 50%;
-  min-height: 40vh;
-  height: 50%;
   min-height: 40vh; }
 
 .img-principal {
@@ -81,20 +79,25 @@ header {
 
 .img-carousel {
   height: 100%;
-  max-height: 40vh;
-  width: 100%; }
+  width: 100%;
+  max-height: 40vh; }
 
 .fuente {
   height: 60px;
   font-family: "Libre Bodoni", serif;
   color: black;
-  font-size: 2rem;
-  font-weight: bold;
-  background-color: #8e8e94; }
+  font-size: 2.5rem;
+  font-weight: bold; }
+
+.bg-h2 {
+  background-color: #cf61cf; }
 
 .ofertas-img-dto {
   height: 40px;
   width: 40px; }
+
+.negrita {
+  font-weight: bold; }
 
 .fuente-contacto, .fuente-h {
   color: aliceblue;
@@ -125,4 +128,6 @@ header {
 textarea {
   border-radius: 20px;
   text-align: center;
-  padding: 3%; }
+  overflow-y: hidden;
+  padding-left: 3%;
+  padding-right: 3%; }
