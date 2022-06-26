@@ -55,17 +55,19 @@ header {
     height: fit-content;
     min-height: 10vh; }
     header nav img {
-      height: 50px;
-      width: 50px; }
-    header nav div ul li {
-      font-family: Arial;
-      text-decoration: none;
-      text-transform: uppercase; }
-      header nav div ul li:hover {
-        background-color: #e22bc3;
-        border-bottom-style: solid;
-        border-bottom-width: 5px;
-        border-bottom-color: blueviolet; }
+      height: 60px;
+      width: 60px; }
+    header nav div {
+      padding-right: 20px; }
+      header nav div ul li {
+        font-family: Arial;
+        text-decoration: none;
+        text-transform: uppercase; }
+        header nav div ul li:hover {
+          background-color: #e22bc3;
+          border-bottom-style: solid;
+          border-bottom-width: 5px;
+          border-bottom-color: blueviolet; }
 
 /* ESTILOS INDEX */
 .mitad-main {
